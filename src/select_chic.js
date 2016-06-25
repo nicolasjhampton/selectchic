@@ -81,7 +81,9 @@
       });
     });
 
-    return $('select');
+    return this.each(function() {
+      $(this).convertSelect(0);
+    });
   };
 
 
