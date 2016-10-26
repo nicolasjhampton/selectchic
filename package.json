@@ -4,26 +4,41 @@
   "description": "A jQuery plugin to style select elements on a form, which options for matching related text field styles automatically.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolasjhampton/selectchic.git"
+    "url": "https://github.com/nicolasjhampton/selectchic.git"
   },
   "keywords": [
     "select",
     "form",
     "jQuery",
     "style",
-    "plugin"
+    "plugin",
+    "webpack",
+    "box",
+    "menu",
+    "front-end"
   ],
-  "author": "Nicolas James Hampton",
+  "author": {
+    "name": "Nicolas James Hampton",
+    "email": "nicolasjhampton@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nicolasjhampton/selectchic/issues"
+    "url": "https://github.com/nicolasjhampton/selectchic/issues",
+    "email": "nicolasjhampton@gmail.com"
   },
-  "homepage": "https://github.com/nicolasjhampton/selectchic#readme",
+  "homepage": "https://github.com/nicolasjhampton/selectchic",
   "dependencies": {
     "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "9.8.3",
+    "jsdom-global": "2.1.0",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.2"
   }
 }
