@@ -1,6 +1,6 @@
 {
   "name": "selectchic",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A jQuery plugin to style select elements on a form, which options for matching related text field styles automatically.",
   "main": "index.js",
   "scripts": {
