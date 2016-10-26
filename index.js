@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = require("./dist/bundle.js");
+module.exports = require("./dist/chic.js");
